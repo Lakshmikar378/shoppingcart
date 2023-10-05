@@ -1,0 +1,98 @@
+/* font-family */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.container{
+    width: 500px;
+    height: 320px;
+    background-color: rgb(243, 240, 240);
+    margin: 200px 420px;
+    border-radius: 10px;
+    box-shadow:3px 3px #939eb1;
+}
+.shoppingcart{
+    display: flex;  
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+h5{
+    color: rgb(45, 45, 45);
+}
+h6{
+    color: rgb(200, 78, 78);
+    text-decoration: underline;
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+.juice h6{
+    color: gray;
+    text-decoration: none;
+}
+.juice img{
+    width: 12px;
+    height: 12px;
+}
+.add{
+    display: flex;
+}
+.add a,p{
+    margin: 10px;
+}
+.add a{
+    padding: 0;
+}
+h2{
+    font-size: 1rem;
+}
+.purchase{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+.purchase h5{
+    color: rgb(24, 24, 222);
+    font-size: small;
+    padding: 5px;
+    text-decoration: underline;
+}
+hr{
+    margin-left: 110px;
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 220px;
+}
+.checkout h3{
+    font-size: small;
+    font-weight: bolder;
+}
+.checkout h6{
+    text-decoration: none;
+    color: gray;
+}
+h1{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.end {
+    margin-left: 280px;
+    margin-right : 60px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    font-size: small;
+    padding: 2px;
+    background-color: rgb(149, 149, 212);
+}
+
